@@ -716,9 +716,11 @@ img {
   font-weight: var(--text-weight);
   line-height: var(--text-height);
   letter-spacing: var(--text-spacing);
+  margin-bottom: 16px;
 }
 
-.modal-label {
+.modal-form-field {
+  margin-bottom: 8px;
 }
 
 .label-text {
