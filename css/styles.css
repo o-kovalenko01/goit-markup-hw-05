@@ -773,7 +773,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--navyblue);
-  border: 1px solid var(--navyblue);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
@@ -783,13 +783,12 @@ img {
 }
 
 .modal-textarea::placeholder {
-  color: var(--navyblue);
-  font-family: Roboto;
+  color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 14px; /* 116.667% */
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .modal-input:focus,
