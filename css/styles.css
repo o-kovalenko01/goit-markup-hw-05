@@ -719,13 +719,6 @@ img {
 }
 
 .modal-label {
-  /* color: var(--lightslate);
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.04em; */
 }
 
 .label-text {
@@ -756,6 +749,10 @@ img {
   border-color: var(--iris);
 }
 
+.modal-input:focus + .modal-icon {
+  fill: var(--iris);
+}
+
 .input-field {
   position: relative;
 }
@@ -763,7 +760,7 @@ img {
 .modal-icon {
   position: absolute;
   left: 16px;
-  top: 0;
+  top: 50%;
   transform: translateY(-50%);
 }
 
