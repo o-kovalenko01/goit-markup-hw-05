@@ -725,6 +725,10 @@ img {
   margin-bottom: 16px;
 }
 
+.input-field {
+  position: relative;
+}
+
 .modal-form-field {
   margin-bottom: 8px;
 }
@@ -762,8 +766,8 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-field {
-  position: relative;
+.modal-textfield {
+  margin-bottom: 16px;
 }
 
 .modal-textarea {
@@ -772,7 +776,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--navyblue);
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
@@ -812,15 +816,6 @@ img {
   color: var(--lightslate, #8e8f99);
 }
 
-.privacy-ref {
-  color: var(--iris, #4d5ae5);
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 0.04em;
-  text-decoration-line: underline;
-}
-
 .privacy-label-item {
   width: 16px;
   height: 16px;
@@ -833,4 +828,19 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.modal-privacy-input:checked + .privacy-label-item {
+  border-color: var(--iris);
+  border: none;
+  fill: var(--cloud);
+}
+
+.privacy-ref {
+  color: var(--iris, #4d5ae5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
 }
