@@ -729,7 +729,7 @@ img {
   margin-bottom: 8px;
 }
 
-.label-text {
+.modal-label {
   margin-bottom: 4px;
   color: var(--lightslate);
   font-family: Roboto;
