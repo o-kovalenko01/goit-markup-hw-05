@@ -800,6 +800,10 @@ img {
   fill: var(--iris);
 }
 
+.modal-privacy {
+  margin-bottom: 24px;
+}
+
 .privacy-label {
   font-size: 12px;
   font-weight: 400;
