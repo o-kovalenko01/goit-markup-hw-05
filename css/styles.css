@@ -833,7 +833,7 @@ img {
 .modal-privacy-input:checked + .privacy-label .privacy-label-item {
   fill: var(--cloud);
   border: none;
-  background-color: var(--iris);
+  background-color: var(--ocean);
 }
 
 .privacy-ref {
