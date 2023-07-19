@@ -830,10 +830,13 @@ img {
   fill: transparent;
 }
 
-.modal-privacy-input:checked + .privacy-label-item {
-  border-color: var(--iris);
-  border: none;
+.modal-privacy-input:checked
+  + .privacy-label
+  .privacy-label-item
+  .privacy-icon {
   fill: var(--cloud);
+  border: none;
+  background-color: var(--iris);
 }
 
 .privacy-ref {
